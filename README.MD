@@ -10,7 +10,7 @@ Export credentials as environment variables so that the eb-cli or aws-cli can us
 
 For instance, for `.gitlab-ci.yml`:
 
-```
+```yml
   ...
   variables:
     AWS_ACCESS_KEY_ID: "$AWS_ACCESS_KEY"
